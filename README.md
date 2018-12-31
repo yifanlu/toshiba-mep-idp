@@ -29,6 +29,14 @@ To regenerate the CGEN files, modify `generate.sh` to point to your CGEN path
 and run it. Note that modifications have been made to the generated files 
 here, so you may want to diff the changes first and add them back.
 
+## Installing
+
+Copy the following (OS specific) files to your `IDA/procs` directory.
+
+* Linux    : mep.so mep64.so 
+* Mac      : mep.dylib mep64.dylib
+* Windows  : mep.dll mep64.dll
+
 ## License
 
 The code is licensed under [MIT License](LICENSE) as permitted by the special 
